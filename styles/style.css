@@ -1,0 +1,51 @@
+html {
+  font-size: 13px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 2.2em;
+}
+.col1 {
+  display: flex;
+  flex-direction: column;
+}
+.row1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.4em;
+}
+.row1 .side-text h3 {
+  margin: 0 0 0.2em 0.5em;
+}
+.row1 .side-text p {
+  margin: 0.2em 0 0 0.5em;
+}
+.col1 .row1 .box-icon {
+  border: 8px solid #b8926c;
+  background-color: #e19133;
+  box-sizing: border-box;
+  height: 4em;
+  width: 4em;
+  border-radius: 3px;
+}
+.row2,
+.row3 {
+  margin-top: 3em;
+  margin-left: 1.2em;
+  border-bottom: 1px solid #00000080;
+}
+.row2 p {
+  margin-left: 2em;
+}
+
+.navbar {
+  display: flex;
+  margin-bottom: 1.3em;
+  font-weight: bold;
+}
+.inactive {
+  color: #00000080;
+}
