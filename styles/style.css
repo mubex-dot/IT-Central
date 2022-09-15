@@ -1,3 +1,4 @@
+/* ============TYPOGRAPHY============ */
 html {
   font-size: 13px;
 }
@@ -5,19 +6,23 @@ body {
   margin: 0;
   padding: 0;
 }
+/* ============CLASSES============ */
+/* ============COLUMN 1============ */
 .container {
   margin: 2.2em;
+  display: flex;
 }
 .col1 {
   display: flex;
   flex-direction: column;
+  background-color: #fff;
 }
 .row1 {
   display: flex;
   align-items: center;
   margin-bottom: 1.4em;
 }
-.row1 .side-text h3 {
+.row1 .side-text h4 {
   margin: 0 0 0.2em 0.5em;
 }
 .row1 .side-text p {
@@ -31,21 +36,44 @@ body {
   width: 4em;
   border-radius: 3px;
 }
+.row2 {
+  margin-top: 3em;
+}
 .row2,
 .row3 {
-  margin-top: 3em;
   margin-left: 1.2em;
-  border-bottom: 1px solid #00000080;
 }
-.row2 p {
+.row2 p,
+.row3 p {
   margin-left: 2em;
 }
-
+.line {
+  width: 9em;
+  border-bottom: 1px solid #00000080;
+  margin-bottom: 0.8em;
+  margin-left: auto;
+  margin-right: auto;
+}
 .navbar {
   display: flex;
-  margin-bottom: 1.3em;
+  margin-bottom: 0.8em;
   font-weight: bold;
 }
 .inactive {
   color: #00000080;
+}
+.row3 .posts .side-text {
+  margin-left: 0;
+}
+.row3 .posts {
+  display: flex;
+  justify-content: space-between;
+}
+/* ============COLUMN 2============ */
+.col2 {
+  background-color: #4e4e4e;
+}
+/* ============COLUMN 3============ */
+.col3 {
+  background-color: #fff;
 }
