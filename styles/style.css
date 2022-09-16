@@ -16,7 +16,7 @@ h2 {
   margin-top: 0.1;
 }
 * {
-  letter-spacing: 0.3px;
+  letter-spacing: 0.5px;
 }
 /* ============CLASSES============ */
 .container {
@@ -205,4 +205,70 @@ h2 {
 /* ============COLUMN 3============ */
 .col3 {
   background-color: #fff;
+}
+.col3 .row1 {
+  padding-top: 1em;
+}
+.col3 .row1 .side-text {
+  padding-left: 1.8em;
+  padding-right: 2.5em;
+}
+.col3 .row1 .side-text h4 {
+  margin: 0 0 0.2em 0.5em;
+}
+.col3 .row1 .side-text p {
+  margin: 0.2em 0 0 0.5em;
+  color: #8f8f8f;
+  font-weight: bold;
+}
+.col3 .row1 .icon {
+  padding-right: 1.8em;
+  padding-left: 2.5em;
+}
+.col3 .row2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0;
+}
+.col3 .row2 img {
+  padding-bottom: 1em;
+  width: 60%;
+}
+.col3 .row2 p {
+  color: #999999;
+  font-weight: bold;
+  margin-left: 0;
+}
+.col3 .row3 .acctinfo .followers,
+.col3 .row3 .acctinfo .following,
+.col3 .row3 .acctinfo .post {
+  display: block;
+}
+.col3 .row3 .acctinfo .followers p,
+.col3 .row3 .acctinfo .following p,
+.col3 .row3 .acctinfo .post p {
+  margin: 0;
+}
+.col3 .row3 .acctinfo .followers h4,
+.col3 .row3 .acctinfo .following h4,
+.col3 .row3 .acctinfo .post h4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1em 0 0.5em 0;
+}
+.col3 .row3 .acctinfo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+.col3 .row3 .acctinfo p {
+  font-size: 0.8em;
+  color: #888888;
+}
+.col3 .row4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
