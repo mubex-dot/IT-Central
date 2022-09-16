@@ -15,6 +15,11 @@ h2 {
   margin-bottom: 0.4em;
   margin-top: 0.1;
 }
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 * {
   letter-spacing: 0.5px;
 }
@@ -75,6 +80,7 @@ h2 {
   display: flex;
   margin-bottom: 1.4em;
   font-weight: bold;
+  cursor: pointer;
 }
 .inactive {
   color: #00000080;
@@ -141,7 +147,7 @@ h2 {
   display: flex;
   width: 47%;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .cont2 .text {
   padding: 1em 3em 1em 2em;
@@ -168,7 +174,7 @@ h2 {
   background-color: #fff;
   padding: 0.6em;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .center-row3 .cont3 {
   display: block;
@@ -195,6 +201,7 @@ h2 {
 .tasklist {
   display: flex;
   margin-bottom: 1.2em;
+  cursor: pointer;
 }
 .tasklist .text p {
   color: #808080;
@@ -270,5 +277,11 @@ h2 {
 .col3 .row4 {
   display: flex;
   justify-content: space-around;
+  color: #e03a2b;
   align-items: flex-end;
+}
+.col3 .row4 .logout {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 13em;
 }
