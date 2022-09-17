@@ -8,7 +8,7 @@
     <title>Test Project</title>
   </head>
   <body>
-    <div class="container">
+    <div id="container" class="container">
       <div class="col1">
         <div class="row1">
           <div class="box-icon icon"></div>
@@ -164,12 +164,35 @@
           </div>
         </div>
         <div class="row4">
-          <div class="logout">
-            <button id="logOut"><img src="/images/logout.svg" alt="" /></button>
+          <div class="logout-btn">
+            <button onclick="logout()">
+              <img src="/images/logout.svg" alt="" />
+            </button>
             <p>Log out of account</p>
           </div>
         </div>
       </div>
+    </div>
+    <div id="logout" class="logout">
+      <div class="modal">
+        <h2>Are you sure you want to log out?</h2>
+        <div class="btn">
+          <button onclick="logoutConfirm()" id="logoutConfirm">
+            Yes, log out
+          </button>
+          <button onclick="logoutCancel()" id="logoutCancel">
+            No, I want to stay
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="blankpage" id="blankpage">
+      <h1>
+        This is a blank page. Use the button below to go back to the first page
+      </h1>
+      <button id="firstPage" class="firstPage" onclick="firstPage()">
+        Go back to first page
+      </button>
     </div>
     <script src="/Javascript/modal.js"></script>
   </body>
