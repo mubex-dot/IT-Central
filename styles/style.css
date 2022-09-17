@@ -1,6 +1,6 @@
 /* ============TYPOGRAPHY============ */
 html {
-  font-size: 13.5px;
+  font-size: 14.5px;
 }
 body {
   margin: 0;
@@ -13,7 +13,7 @@ p {
 }
 h2 {
   margin-bottom: 0.4em;
-  margin-top: 0.1;
+  margin-top: 1.2em;
 }
 
 * {
