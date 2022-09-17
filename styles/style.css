@@ -372,6 +372,11 @@ h2 {
 
 /* ============MEDIA QUERIES============ */
 
+@media (max-width: 1350px) {
+  html {
+    font-size: 13px;
+  }
+}
 @media (max-width: 1210px) {
   html {
     font-size: 12px;
