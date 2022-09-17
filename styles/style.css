@@ -13,7 +13,7 @@ p {
   font-size: 0.9rem;
 }
 h2 {
-  margin-bottom: 0.4em;
+  margin-bottom: 0.8em;
   margin-top: 1.2em;
 }
 
@@ -213,7 +213,7 @@ h2 {
 }
 .logout-btn {
   display: flex;
-  margin-top: 12em;
+  margin-top: 15em;
 }
 /* ============COLUMN 3============ */
 .col3 {
